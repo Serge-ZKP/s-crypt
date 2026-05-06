@@ -10,6 +10,8 @@
 
 A command-line tool that encrypts files and directories into a custom `.senc` format using AES-256-GCM authenticated encryption, Argon2id key derivation, and Zstandard compression — with full integrity verification against truncation, tampering, and wrong passwords.
 
+> ⚠️ **Not production-ready software.** It has not undergone formal security auditing. While it uses well-established cryptographic primitives, the implementation has not been reviewed by security professionals. Use at your own risk. Do not use this tool to encrypt data whose loss would be unacceptable.
+
 </div>
 
 ---
